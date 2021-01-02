@@ -1,0 +1,18 @@
+---
+title: "README"
+author: "Omar Benjelloun"
+date: "02/01/2021"
+output: pdf_document
+---
+
+
+# Scripts
+
+"run_analysis.R" : downloads data from the Smartlab - Non Linear Complex Systems Laboratory rearranges the data by merging the 
+train, test and the labels. Filters out all the variables that are not mean or std and outputs a text file ("WideTidyData.text")
+containing the mean of the selected variables for each subject and activity. The data set is 180 rows by 81 columns. Set header = TRUE when loading the data.
+
+# Files
+
+"Codebook.Rmd" : details the original data, the cleaning pipepline, the data set and the variables
+"WideTidyData.text" : data (180 rows by 81 columns) containing the mean of each variable for each subject and activity
